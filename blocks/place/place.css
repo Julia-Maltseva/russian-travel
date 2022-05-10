@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 460px 1fr;
   gap: 48px 40px;
-  grid-template-areas: 
+  grid-template-areas:
     'title website'
     'image paragraph';
   max-width: 984px;

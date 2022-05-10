@@ -1,5 +1,5 @@
 .footer__links {
-  width: calc(1184px - 186px - 533px);  
+  width: calc(1184px - 186px - 533px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
