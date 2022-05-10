@@ -1,16 +1,16 @@
 .place {
-  display: grid;  
+  display: grid;
   grid-template-columns: 460px 1fr;
   gap: 48px 40px;
   grid-template-areas: 
     'title website'
-    'image paragraph';  
+    'image paragraph';
   max-width: 984px;
   margin-bottom: 80px;
 }
 
 .place:last-child {
-  margin-bottom: 0px;  
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 1279px) {
