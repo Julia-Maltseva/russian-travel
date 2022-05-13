@@ -21,12 +21,3 @@
     line-height: 1.25;
   }
 }
-
-@media screen and (max-width: 319px) {
-  .lead__subtitle {
-    max-width: 288px;
-    margin: 0 auto 40px auto;
-    font-size: 16px;
-    line-height: 1.25;
-  }
-}

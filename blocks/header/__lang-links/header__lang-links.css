@@ -1,19 +1,21 @@
 .header__lang-links {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  max-width: calc(30px + 18px + 30px);
   font-size: 24px;
   line-height: 1.1;
   font-weight: 400;
 }
 
+.header__lang-links:hover {
+  opacity: 0.8;
+  transition: opacity 1s ease-in;
+}
+
 @media screen and (max-width: 767px) {
   .header__lang-links {
     font-size: 18px;
-    line-height: 1.1;
-  }
-}
-
-@media screen and (max-width: 319px) {
-  .header__lang-links {
-    font-size: 18px;
-    line-height: 1.1;
+    max-width: calc(22px + 18px + 22px);
   }
 }
