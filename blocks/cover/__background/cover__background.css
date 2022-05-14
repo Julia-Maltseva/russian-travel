@@ -21,3 +21,21 @@
 .cover__background:hover::before {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1279px) {
+  .cover__background {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__background {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__background {
+    align-items: center;
+  }
+}
