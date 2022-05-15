@@ -31,7 +31,6 @@
     width: calc(100% - 16px - 16px);
     margin: 0 16px 64px 16px;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-    justify-items: center;
     gap: 12px;
   }
 }
